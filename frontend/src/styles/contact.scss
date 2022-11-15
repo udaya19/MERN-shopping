@@ -1,0 +1,39 @@
+@import 'color';
+
+.contact{
+    margin: 1.6rem;
+    .name,.email{
+        
+        label{
+            margin-right: 5rem;
+        }
+        input{
+            margin-top: 3rem;
+            border: 1px solid black;
+            padding: 0.2rem 0.3rem;
+            border-radius: 5px;
+            &:focus{
+                border: 1px solid $lightdark;
+            }
+        }
+    }
+    .message{
+        textarea{
+            margin-left: 3.5rem;
+            margin-top: 2rem;
+        }
+    }
+    .send{
+        color: $pink;
+        background-color: $red;
+        border: none;
+        padding: 0.5rem 2rem;
+        margin: 5rem;
+        cursor: pointer;
+        transition: color 0.3s,background-color 0.3s;
+        &:hover{
+            background-color: $pink;
+            color: $red;
+        }
+    }
+}
