@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/home.scss";
+import Menu from "./Menu";
 const Home = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Home = () => {
         </div>
         <a href="#menu">Explore </a>
       </section>
+      <Menu />
     </>
   );
 };
